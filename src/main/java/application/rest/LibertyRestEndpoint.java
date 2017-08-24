@@ -26,6 +26,7 @@ public class LibertyRestEndpoint {
     	return new Employee("Amrit Raj",empid,"Computer");
     }
     
+    //Post Operation.
     @POST
     @Path("employee")
     @Produces(MediaType.APPLICATION_JSON)
