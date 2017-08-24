@@ -6,8 +6,9 @@ public class Employee {
 	private String id;
 	private String department;
 	
+	public Employee() {};
 	
-	public Employee(String name, String id, String department) {
+	public Employee (String name, String id, String department) {
 		super();
 		this.name = name;
 		this.id = id;
