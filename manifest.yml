@@ -1,0 +1,8 @@
+applications:
+- path: target/bmxcicd-1.0-SNAPSHOT.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bmxcicd
+  host: bmxcicd
+  disk_quota: 1024M
