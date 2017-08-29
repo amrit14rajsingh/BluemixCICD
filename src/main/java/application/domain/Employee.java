@@ -1,5 +1,8 @@
 package application.domain;
 
+/*
+ * @author Amrit Raj
+ */
 public class Employee {
 
 	private String name;
